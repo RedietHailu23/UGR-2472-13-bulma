@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Tourpage</title>
+    <script src="./js/script.js"></script>
+    <style>
+.header-bg {
+    background-color: #808080; 
+    color: black; 
+}
+
+.footer-bg {
+    background-color: gray; 
+    color: #ffffff;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:gray;
+  color: #fff;
+  padding: 20px;
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.upper-left {
+  margin-bottom: 10px;
+}
+
+.right-section {
+  margin-left: auto;
+}
+
+#logo-F {
+  max-width: 100%;
+}
+footer .media-icons{
+  display: none;
+}
+.media-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px; 
+}
+.tours{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f4f4f4;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.lalibela{
+    flex: 1; 
+    padding: 10px; 
+    margin: 5px; 
+    width: 300px;
+    height: 300px;
+}
+.single-column {
+    flex: 2; 
+    padding: 10px;
+    margin: 5px;
+  }
+.all{
+    background-color: #e6e6e6;
+}
+
+    </style>
+</head>
+
+<body>
+    <header class="header-bg">
+        <section class="section">
+            <div class="container">
+                <img src="image/LOGO.jpg" alt="" height="50" width="60">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-menu">
+                        <div class="navbar-start">
+                            <a href="./Homepage.html" class="navbar-item">Home</a>
+                            <a href="./Hobbypage.html" class="navbar-item" >Hobby</a>
+                            <a href="./Tourpage.html" class="navbarr-item" >Tour</a>
+                        </div>
+                    </div>
+                </nav>
+                <i class="fa fa-bars menu"></i>
+            </div>
+        </section>
+    </header>
+    <main class="section main-tour">
+        <div class="all">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-half">
+                        <div class="content">
+                            <img class="image" src="image/lalibela.jpg" alt="Lalibela">
+                            <p>
+                                Lalibela, the ancient town in Ethiopia, holds a special place in my heart as I have had the incredible opportunity to visit its mesmerizing rock-hewn churches not just once or twice, but three times. The architectural marvels of Lalibela, with their intricate carvings and spiritual significance, draw me back time and again.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-half">
+                        <div class="content">
+                            <img class="image" src="image/axum.jpg" alt="Axum">
+                            <p>
+                                The Axum Obelisk in Ethiopia is my ultimate dream vacation spot and the source of my greatest wanderlust. My attention has been captivated by the Axum Obelisk. My passion for exploration and discovery is fueled by the desire to stand in the shadow of the Axum Obelisk, take in its grandeur, and comprehend the historical significance it holds. It is a location that captures the spirit of my travel fantasies, not just somewhere I would like to go.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="columns">
+                    <div class="column">
+                        <audio controls>
+                            <source src="audio/Tour.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+    
+                <div class="media-icon">
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="section footer-bg">
+        <div class="left-section">
+            <div class="upper-left">
+                <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60">
+            </div>
+            <div class="lower-left">
+                <p class="copyright">&copy; 2023 RedietHailu. All rights reserved.</p>
+            </div>
+        </div>
+        <div class="right-section">
+            <address>
+                <p class="address">address</p>
+                <p>Email:redietse23@gmail.com</p>
+                <p>phone Number: 0952323232</p>
+                <p>amst kilo</p> 
+            </address>
+        </div>
+        <div class="media-icons">
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>  
+            </ul>
+        </div> 
+    </footer>
+    
+</body>
+</html>

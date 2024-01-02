@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Aboutpage</title>
+    <script src="./js/script.js"></script>
+    <style>
+.header-bg {
+    background-color: #808080; 
+    color: black; 
+}
+
+.footer-bg {
+    background-color: gray; 
+    color: #ffffff;
+}
+
+.main-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    color: black;
+    background-color: #e6e6e6;
+}
+.footer .media-icons {
+    display: none;
+}
+.picture,
+.picture2 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+}
+        
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:gray;
+  color: #fff;
+  padding: 20px;
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.upper-left {
+  margin-bottom: 10px;
+}
+
+.right-section {
+  margin-left: auto;
+}
+
+#logo-F {
+  max-width: 100%;
+}
+footer .media-icons{
+  display: none;
+}
+.media-icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px; 
+}
+.navigation a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white; 
+  font-weight: bold;
+  
+}
+.navigation {
+  display: none; 
+}
+
+.navigation.show {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background-color: rgb(90, 90, 90);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation.show a {
+  margin: 10px;
+}@media (min-width: 992px){
+
+.menu {
+    display: none; 
+}
+.navigation{
+  display: block;
+}}
+ </style>
+</head>
+
+<body>
+    <header class="header-bg">
+        <section class="section">
+            <div class="container">
+                <img src="image/LOGO.jpg" alt="" height="50" width="60">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-menu">
+                        <div class="navbar-start">
+                            <a href="./Homepage.html" class="navbar-item">Home</a>
+                            <a href="./Aboutpage.html" class="navbar-item">About me</a>
+                            <a href="./skillspage.html" class="navbar-item">Skills</a>
+                            <a href="./projectpage.html" class="navbar-item">Project</a>
+                            <a href="./contactpage.html" class="navbar-item">Contact me</a>
+                        </div>
+                    </div>
+                </nav>
+                <i class="fa fa-bars menu"></i>
+            </div>
+        </section>
+    </header>
+
+    <main class="section main-about">
+        <img class="field" src="image/field_pic.jpg" alt="">
+        <p class="paragraph">Hello, I am <span><em>Rediet Hailu.</em></span> a committed student of software engineering who has a love for volunteering and technology. Outside of the field of coding, I enjoy volunteering because I think it has great power to give back to the community. It's always a pleasure to connect with people thanks to my outgoing personality, whether we're working together on coding projects or having deep discussions. Apart from my desire with technology, I also have an immense fascination with history, and one of my favorite activities is visiting historical sites.</p>
+        <figure class="hobbycaption">
+            <a class="basketball" href="./Hobbypage.html"><img class="picture" src="image/basketball_img.jpg" alt=""></a>
+            <figcaption><a href="./Hobbypage.html">Hobby</a></figcaption>
+        </figure>
+        <figure class="tourcaption">
+                <a class="lalibela" href="./Tourpage.html"><img class="picture2" src="image/lalibela.jpg" alt=""></a>
+            <figcaption><a href="./Tourpage.html">Tour</a></figcaption>
+        </figure>
+    
+        <div class="media-icon">
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>  
+            </ul>
+        </div>
+    
+    </main>
+
+    <footer class="section footer-bg">
+        <div class="left-section">
+            <div class="upper-left">
+                <img id="logo-F" src="image/LOGO.jpg" alt="" height="50" width="60">
+            </div>
+            <div class="lower-left">
+                <p class="copyright">&copy; 2023 RedietHailu. All rights reserved.</p>
+            </div>
+        </div>
+        <div class="right-section">
+            <address>
+                <p class="address">address</p>
+                <p>Email:redietse23@gmail.com</p>
+                <p>phone Number: 0952323232</p>
+                <p>amst kilo</p> 
+            </address>
+        </div>
+        <div class="media-icons">
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://fa-linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>  
+            </ul>
+        </div> 
+    </footer>
+</body>
+
+</html>
